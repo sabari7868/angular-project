@@ -8,12 +8,13 @@ import { Employee } from '../employee';
 })
 export class EmployeeService {
 
+  
   private url_get_list = "http://localhost:8080/list";
   private url_get_emp = "http://localhost:8080/employee/";
   private url_get_emp_name='http://localhost:8080/employee-name/'
   private url_add = "http://localhost:8080/add";
   private url_upd = "http://localhost:8080/update/";
-  private url_del = "http://localhost:8080/delete/";
+  private url_del = "http://localhost:8080/delete/";    
 
 
   constructor(private httpClient : HttpClient) { }
